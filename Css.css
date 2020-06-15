@@ -1,15 +1,15 @@
 @font-face{
     font-family:Jaldi;
-    src:url('font\BalsamiqSans-Regular.ttf');
+    src:url('font/BalsamiqSans-Regular.ttf');
     }
  @font-face{
         font-family:Jaldi;
         font-weight: bold;
-        src:url('font\BalsamiqSans-Bold.ttf');
+        src:url('font/BalsamiqSans-Bold.ttf');
     }
     @font-face{
         font-family:Mukta-Regular;
-        src:url('font\Mukta-Regular.ttf');
+        src:url('font/Mukta-Regular.ttf');
         }
    
 *{
@@ -47,7 +47,7 @@ p:fr{
    border-bottom: 2px;
    border-style: solid;
    border-color: black;
-    font-family: Jaldi, Calibri,'Trebuchet MS', sans-serif;
+    font-family: Jaldi,Calibri,'Trebuchet MS', sans-serif;;
     font-weight: bold;
     margin-bottom: 4%;
 }
@@ -75,7 +75,7 @@ p:fr{
    border-bottom: 2px;
    border-style: solid;
    border-color: black;
-    font-family: Jaldi, Calibri,'Trebuchet MS', sans-serif;
+    font-family: Jaldi,Calibri,'Trebuchet MS', sans-serif;;
     font-weight: bold;
     margin-bottom: 4%;
 }
@@ -88,7 +88,7 @@ p:fr{
     margin-right: 4%;
     margin-bottom: 2%;
     color: rgba(214, 214, 214, 0.603);
-    font-family:Mukta-Regular, Calibri,'Trebuchet MS', sans-serif;
+    font-family:Mukta-Regular,Calibri,'Trebuchet MS', sans-serif;;
     line-height: 110%;
 }
 

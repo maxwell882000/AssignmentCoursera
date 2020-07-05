@@ -1,2 +1,0 @@
-# AssignmentCoursera
-Assignment

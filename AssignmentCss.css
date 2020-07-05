@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.Allbody{
+        font-size: 5 em;
+    background-color: rgba(22, 117, 46, 0.76);
+    color: blanchedalmond;
+}
+
+#nav-header{
+    background-color: rgba(187, 202, 104, 0.952);
+    border-radius: 0;
+    border: 0;
+}
+#nav-list {
+margin-top:0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right:0;
+}
+#nav-list li a {
+    text-align: center;
+    text-transform: uppercase;
+}
+#nav-list li hr{
+    width: 100%;
+    margin: 0;
+}
+.navbar-nav{
+
+}
+.navbar{
+    margin:0;
+}
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+.TextBorder{
+    position: relative;
+    width: 100%;
+    background-color: rgba(47, 77, 133, 0.466);
+    border: 2px solid black;
+    margin-bottom: 4%;
+}
+.TextBorder span{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.TextBorder p {
+    margin: 8% 2% 2% 2%; 
+}
+
+ #LinkSet {
+    margin-top:-7% ;
+} 
+@media(min-width:768px) and (max-width:991px){
+    #SetParagraph{
+        margin-top:4%;
+    }
+}
+@media(max-width:767px){
+    .TextBorder  a{
+        
+        margin-top: 10%;
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase ;
+    }
+    .TextBorder p {
+        margin-top:4%;
+    }
+    .TextBorder a:hover {
+        text-decoration: none;
+        color: lemonchiffon;
+    }
+    .TextBorder a:active {
+        text-decoration: none;
+        color: lemonchiffon;  
+    }
+    .TextBorder a:visited{
+        text-decoration: none;
+        color: lemonchiffon;  
+    }
+    .TextBorder a:focus{
+        text-decoration: none;
+        color: lemonchiffon; 
+    }
+}

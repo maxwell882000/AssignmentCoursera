@@ -27,8 +27,14 @@ margin-right:0;
     width: 100%;
     margin: 0;
 }
-.navbar-nav{
-
+#Toggle-Change{
+    background-color: inherit;
+}
+#Toggle-Change:hover{
+    background-color: ivory;
+}
+#Toggle-Change:focus{
+    background-color:none;
 }
 .navbar{
     margin:0;
